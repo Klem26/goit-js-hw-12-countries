@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Abel','Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+} */
+body {
+  font-family: 'Abel', Roboto, sans-serif;
+  font-size: 18px;
+}
+input[type='text']:focus {
+  background-color: #8fd0f7;
+  border-color: #000;
+}
+
+.form-control {
+  border: 1px solid rgb(160, 156, 156);
+  border-radius: 10px;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  padding: 10px;
+  font-family: 'Abel', sans-serif;
+  font-size: 24px;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 40px;
+  margin-top: 40px;
+  border-radius: 10px;
+  border: 1px solid rgb(160, 156, 156);
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+.container__title {
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+}
+.card__title {
+  font-size: 18px;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+}
